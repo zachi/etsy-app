@@ -1,10 +1,11 @@
-Clone this repo
+Clone repo
 
 Create new etsy account
+  
 
 Open an Etsy shop
 
- - Follow etsy instructions for settings a shop used for testing 
+ - Follow etsy instructions for settings a shop for testing 
    http://www.etsy.com/il-en/legal/policy/api-testing-policy/169130941112
    
 Create new app
@@ -13,7 +14,7 @@ Create new app
  - for my understanding we’re good with default access which allows us to read sellers data. 
  - copy app api key details, from https://www.etsy.com/developers/your-apps, to etsy-consumer.json
    in the following manner
-  
+  ```json
   {
     "consumer": {
       "public": KEYSTRING,
@@ -21,6 +22,7 @@ Create new app
       "key": KEYSTRING"
    }
  }
+ ```
      
 install node app
  - open terminal on cloned project folder
