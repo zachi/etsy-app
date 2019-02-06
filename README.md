@@ -10,8 +10,7 @@ Open an Etsy shop
    
 Create new app
  - https://www.etsy.com/developers/register
- - etsy apps have two access levels ( default access  or full access ). 
- - for my understanding we’re good with default access which allows us to read sellers data. 
+ - etsy apps have two access levels ( default access  or full access ). for my understanding we’re good with default access which allows us to read sellers data. 
  - copy app api key details, from https://www.etsy.com/developers/your-apps, to etsy-consumer.json
    in the following manner
   ```json
@@ -26,6 +25,8 @@ Create new app
      
 install node app
  - open terminal on cloned project folder
- - npm install
- - npm start
+ ```sh
+ - $ npm install
+ - $ npm start
+ ```
  - open browser on localhost:3000
