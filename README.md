@@ -31,4 +31,4 @@ install node app
  - $ npm install
  - $ npm start
  ```
- - open browser on http://localhost:3000
+ - go to http://localhost:3000
