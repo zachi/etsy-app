@@ -7,7 +7,7 @@ Create new etsy account
 
 Open an Etsy shop
 
- - Follow etsy instructions for settings a shop for testing 
+ - Follow etsy instructions for setting a shop for testing 
    http://www.etsy.com/il-en/legal/policy/api-testing-policy/169130941112
    
 Create new app
