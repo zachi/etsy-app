@@ -34,7 +34,7 @@ app.get('/allow-access-callback', function (req, res1) {
     })
 });
 
-app.get('/shop-transactions', function (req, res) {
+app.get('/transactions', function (req, res) {
   //'shops/:shop_id/transactions'
     oauth.getSomething(
       'shops/zachietsytest/transactions',
@@ -56,5 +56,28 @@ app.get('/listings', function (req, res) {
         var t = 0;
         res.json(data);
       })
+})
+
+app.get('/shops', function (req, res) {
+  //'shops/:shop_id/transactions'
+    oauth.getSomething(
+      'shops/zachietsytest',
+      db.getUser().oauth_token,
+      db.getUser().oauth_token_secret,
+      function (err, res1, data) {
+        var t = 0;
+        res.json(data);
+      })
 }) 
 
+app.get('/user', function (req, res) {
+  //'shops/:shop_id/transactions'
+    oauth.getSomething(
+      'users/__SELF__',
+      db.getUser().oauth_token,
+      db.getUser().oauth_token_secret,
+      function (err, res1, data) {
+        var t = 0;
+        res.json(data);
+      })
+}) 
