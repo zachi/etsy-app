@@ -81,3 +81,15 @@ app.get('/user', function (req, res) {
         res.json(data);
       })
 }) 
+
+app.get('/user-shops', function (req, res) {
+  //'shops/:shop_id/transactions'
+    oauth.getSomething(
+      'users/__SELF__/shops',
+      db.getUser().oauth_token,
+      db.getUser().oauth_token_secret,
+      function (err, res1, data) {
+        var t = 0;
+        res.json(data);
+      })
+}) 
