@@ -2,9 +2,11 @@
 
 
 ### get user shops
-`https://openapi.etsy.com/v2/users/\_\_SELF__/shops`
+`https://openapi.etsy.com/v2/users/__SELF__/shops`
 
 [api documentation](https://www.etsy.com/developers/documentation/reference/shop#method_findallusershops)
+
+response json:
 ```json
 {
   "count": 1,
@@ -74,6 +76,8 @@
 `https://openapi.etsy.com/v2/shops/zachietsytest/transactions`
 
 [api documentation](https://www.etsy.com/developers/documentation/reference/transaction#section_fields)
+
+response json:
 ```json
 {
   "count": 1,
