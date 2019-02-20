@@ -3,6 +3,7 @@
 
 ### get user shops
 `https://openapi.etsy.com/v2/users/\_\_SELF__/shops`
+
 [api documentation](https://www.etsy.com/developers/documentation/reference/shop#method_findallusershops)
 ```json
 {
@@ -70,7 +71,8 @@
 ```
 
 ### get shop transactions
-https://openapi.etsy.com/v2/shops/zachietsytest/transactions
+`https://openapi.etsy.com/v2/shops/zachietsytest/transactions`
+
 [api documentation](https://www.etsy.com/developers/documentation/reference/transaction#section_fields)
 ```json
 {
